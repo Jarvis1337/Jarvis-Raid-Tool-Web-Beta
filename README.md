@@ -80,15 +80,6 @@
 
 ----
 
-## 🔑 ***Making The Project***
-
-> ***We Using Visual Studio Code*** -
-
-```
-https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/releases
-```
-----
-
 ## 🎞 ***Jarvis - Raid Tool Web... Preview Images***
 
 > ***Features ----***
