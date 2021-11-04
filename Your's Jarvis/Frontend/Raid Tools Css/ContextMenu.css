@@ -1,0 +1,17 @@
+[id$=-context-menu] {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+[id$=-context-menu]:hover {
+    cursor: pointer;
+}
+
+[id$=-context-menu] li a {
+    color: rgb(105,247,181) !important;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+[id$=-context-menu] li a:hover  {
+    background-color: rgba(255,255,255,0.25) !important;
+}
