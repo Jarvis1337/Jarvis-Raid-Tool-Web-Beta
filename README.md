@@ -105,7 +105,7 @@
 
 ***Leaver ----***  
 ![Leaver](https://media.discordapp.net/attachments/906085323853942824/906232395429195776/unknown.png?width=768&height=425)
-![Leaver](https://media.discordapp.net/attachments/906085323853942824/906231957476753449/unknown.png?width=768&height=425)
+![Leaver](https://media.discordapp.net/attachments/906085323853942824/906476509735301140/unknown.png?width=768&height=422)
 
 ***Message & Dm Spammer ----***  
 ![Message & Dm Spammer](https://media.discordapp.net/attachments/906085323853942824/906232794554961990/unknown.png?width=768&height=422)
