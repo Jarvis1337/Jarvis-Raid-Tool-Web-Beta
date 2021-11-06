@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!-- Designined by Your's Jarvis -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jarvis Raid Tool - Account's List</title>
+
+  <link rel="stylesheet" href="../Main Dot Css/navigation.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Boxiocns CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<nav>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-flutter'></i>
+      <span class="logo_name">Jarvis Raid Tools
+        <p class="v-info">Version 2.8.6</p>
+      </span>
+    </div>
+
+    <ul class="navigation-bar-001">
+      <li>
+        <a href="../Raid Tools/Admin/Dashboard.html">
+          <i class='bx bxs-dashboard'></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Raid Tools/Admin/Dashboard.html">Dashboard</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../Raid Tools/Account's List.html">
+          <i class='bx bx-notepad'></i>
+          <span class="link_name">Account List's</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Raid Tools/Account's List.html">Account List's</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-shield-quarter'></i>
+            <span class="link_name">Attack's</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Fishing Attack's</a></li>
+          <li><a href="../Raid Tools/Server Joiner.html">Server Joiner</a></li>
+          <li><a href="../Raid Tools/Leaver.html">Leaver</a></li>
+          <li><a href="../Raid Tools/Message & DM Spammer.html">Message & DM Spammer</a></li>
+          <li><a href="../Raid Tools/Friender.html">Friender</a></li>
+          <li><a href="../Raid Tools/Reactions Spammer.html">Reactions Spammer</a></li>
+          <li><a href="../Raid Tools/Voice Channel Joiner.html">Voice Channel Joiner</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../Raid Tools/Account Checker.html">
+          <i class='bx bx-user-check'></i>
+          <span class="link_name">Account Checker</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Raid Tools/Account Checker.html">Account Checker</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../Raid Tools/Profile Cleaner.html">
+          <i class='bx bx-book-content'></i>
+          <span class="link_name">Profile Cleaner</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Raid Tools/Profile Cleaner.html">Profile Cleaner</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../Raid Tools/Server Information.html">
+          <i class='bx bx-terminal'></i>
+          <span class="link_name">Server Information</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Raid Tools/Server Information.html">Server Information</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../Raid Tools/Admin/Settings.html">
+          <i class='bx bx-cog'></i>
+          <span class="link_name">Settings</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../Raid Tools/Admin/Settings.html">Settings</a></li>
+        </ul>
+      </li>
+
+      <!--<li>
+          <div class="logout">
+            <div class="icon">
+              <div class="tooltip">logout</div>
+               <span><i class='bx bx-log-out'></i></span>
+            </div>           
+          </div>
+        </li>-->
+
+      <h1>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="../Navigation Image/Small-Logo.jpg" alt="profileImg">
+          </div>
+
+          <div class="name-job">
+            <div class="profile_name">Your's Jarvis</div>
+            <div class="job">Web Programmer</div>
+          </div>
+
+          <a href="../Raid Tools/Admin/Login Page.html">
+            <div><i class='bx bx-log-out'></i></div>
+          </a>
+
+        </div>
+      </h1>
+
+    </ul>
+  </div>
+
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu'></i>
+      <span class="text">Jarvis Raid Tool - Account's List</span>
+    </div>
+
+
+    <script>
+      let imageData = null;
+
+      function ReadImageFile(input) {
+        if (input.files && input.files[0]) {
+          let reader = new FileReader();
+          reader.onload = function (e) {
+            const splitted = input.value.split('.');
+            const extension = splitted[splitted.length - 1];
+
+            if (extension == 'png' || extension == 'jpg' || extension == 'gif') {
+              imageData = e.target.result;
+
+              $('#modify-pfp')
+                .attr('src', e.target.result)
+                .width(80)
+                .height(80);
+            }
+          };
+
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+
+      function Modify() {
+        SendJson({
+          op: ListOpcode.BotModify,
+          id: document.getElementById('modify-id').innerText,
+          hypesquad: document.getElementById('modify-hype').value,
+          status: document.getElementById('status').value,
+          avatar: imageData,
+          set_all: document.getElementById('set-all').checked == true
+        });
+      }
+    </script>
+
+    <!-- For More Information in bot info -->
+    <style>
+      .nav-pills li a {
+        color: rgb(202, 204, 207);
+      }
+
+      .nav-pills .active a {
+        color: rgb(230, 252, 255) !important;
+      }
+    </style>
+
+    <body class="dark-body">
+      <!-- Bot list context menu -->
+      <ul id="bot-list-context-menu" class="dropdown-menu dark-dropdown-menu" style="width: 175px" role="menu"
+        style="display:none;">
+        <li><a class="dark-dropdown">Modify user</a></li>
+        <li><a class="dark-dropdown">Get profile</a></li>
+        <li><a class="dark-dropdown">Get token</a></li>
+      </ul>
+
+      <!-- Account modification popup -->
+      <div id="modify-bot-modal" class="modal fade" role="dialog" aria-hidden="true">
+        <span id="modify-id" style="display: none"></span>
+
+        <div class="modal-dialog">
+          <div class="modal-content dark-container" style="height: 410px">
+            <div class="modal-header">
+              <button type="button" class="close" style="color: rgb(230,252,255)" data-dismiss="modal"
+                aria-hidden="true">&times;</button>
+              <h4 id="modify-title" class="modal-title">Modify account</h4>
+            </div>
+            <div class="modal-body">
+              <div style="display: flex; margin-bottom: 6px">
+                <input id="modify-pfp-file" type="file" style="display: none" onchange="ReadImageFile(this)">
+
+                <!-- Profile picture -->
+                <div style="width: 80px; height: 80px; margin-right: 22px;"
+                  onmouseover="$('#modify-pfp-darken').fadeTo(150, 0.3)"
+                  onmouseout="const darken = document.getElementById('modify-pfp-darken'); darken.style.display = 'none'; darken.style.opacity = '0%'">
+                  <img id="modify-pfp" src="../Navigation Image/Small-Logo.jpg"
+                    style="width: 100%; height: 100%; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;"
+                    onerror="this.src = '../Raid Tools Image/Default.png'">
+                  <!-- This is used as an overlay to make the image appear a bit darker -->
+                  <div id="modify-pfp-darken"
+                    style="width: 80px; height: 80px; display: none; background-color: black; position: absolute; left: 15px; top: 15px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%"
+                    onclick="$('#modify-pfp-file').click()"></div>
+                </div>
+
+                <!-- Name/Discriminator -->
+                <p id="modify-at" style="font-size: 20px; margin-top: 25px">Your's Jarvis<span
+                    style="font-size: 17px; color: rgb(170,192,195); margin-left: 3px">#2431</span></p>
+              </div>
+
+              <div style="display: flex">
+                <div>
+                  <h3>Hypesquad</h3>
+
+                  <select id="modify-hype" class="form-control dark-input" style="width: 270px">
+                    <option style="font-family: Roboto; font-weight: 100;">None</option>
+                    <option style="font-family: Roboto; font-weight: 100;">Bravery</option>
+                    <option style="font-family: Roboto; font-weight: 100;">Brilliance</option>
+                    <option style="font-family: Roboto; font-weight: 100;">Balance</option>
+                  </select>
+                </div>
+
+                <div id="status-pick" style="margin-left: 26px">
+                  <h3>Status</h3>
+
+                  <select id="status" class="form-control dark-input" style="width: 270px">
+                    <option style="font-family: Roboto; font-weight: 100;">Unset</option>
+                    <option style="font-family: Roboto; font-weight: 100;">Online</option>
+                    <option style="font-family: Roboto; font-weight: 100;">Idle</option>
+                    <option style="font-family: Roboto; font-weight: 100;">Do not disturb</option>
+                    <option style="font-family: Roboto; font-weight: 100;">Offline</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="form-check" style="margin-top: 118px">
+                <input class="form-check-input" type="checkbox" id="set-all">
+                <label class="form-check-label" style="font-weight:300; font-size: 15px" for="set-all">Change for all
+                  bots</label>
+              </div>
+
+              <button class="btn dark-btn" data-dismiss="modal"
+                style="width: 180px; position: absolute; top: 300px; right: 15px;" onclick="Modify()">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Profile popup -->
+      <div id="profile-modal" class="modal fade" role="dialog" aria-hidden="true">
+
+        <div class="modal-dialog">
+          <div class="modal-content dark-container" style="height: 530px">
+            <div class="modal-body">
+
+              <!-- Top -->
+              <div style="display: flex; margin-bottom: 14px">
+                <img id="profile-pfp" src="../Navigation Image/Small-Logo.jpg"
+                  style="width: 80px; height: 80px; margin-bottom: 11px; margin-right: 22px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;"
+                  onerror="this.src = '../Raid Tools Image/Default.png'">
+
+                <div>
+                  <!-- Name/Discriminator -->
+                  <p id="profile-at" style="font-size: 20px; margin-top: 7px;">Your's Jarvis<span
+                      style="font-size: 17px; color: rgb(170,192,195); margin-left: 3px">#2431</span></p>
+
+                  <div id="profile-badges" style="display: flex; margin-top: -2px">
+                  </div>
+                </div>
+              </div>
+
+              <!-- More information -->
+              <div style="margin-left: 9px">
+                <ul class="nav nav-pills" style="border: none">
+                  <li class="active"><a style="background-color: rgb(42,45,51); border: none" data-toggle="pill"
+                      href="#guilds">Servers</a></li>
+                  <li><a style="background-color: rgb(42,45,51); border: none" data-toggle="pill"
+                      href="#friends">Friends</a></li>
+                </ul>
+
+                <div class="tab-content form-control"
+                  style="background-color: rgba(50,53,59,0.4); color: rgb(230,252,255); width: 550px; height: 320px; border: none; margin-top: 2px">
+                  <div id="guilds" class="tab-pane fade in active" style="overflow: auto; max-height: 300px">
+                    <table class="table table-hover" style="background-color: rgba(50,53,59,0.4);">
+                      <thead>
+                        <th>Name</th>
+                        <th>Id</th>
+                      </thead>
+                      <tbody id="guild-list">
+                      </tbody>
+                    </table>
+                  </div>
+                  <div id="friends" class="tab-pane fade" style="overflow: auto; max-height: 300px">
+                    <table class="table table-hover" style="background-color: rgba(50,53,59,0.4);">
+                      <thead>
+                        <th>@</th>
+                        <th>Id</th>
+                      </thead>
+                      <tbody id="friends-list">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Account token popup -->
+      <div id="bot-token-modal" class="modal fade" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content dark-container">
+            <div class="modal-body">
+              <button type="button" class="close" style="color: rgb(230,252,255)" data-dismiss="modal"
+                aria-hidden="true">&times;</button>
+              <h3 id="bot-token-title" class="modal-title">Token for account</h3>
+
+              <p id="bot-token" style="margin-top: 12px"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Bot list -->
+      <div id="bot-list-container" class="form-control dark-container"
+        style="margin: auto; width:70%; height: auto; margin-bottom: 20px; margin-top: 10px;">
+        <table class="table table-hover">
+          <thead>
+            <th>@</th>
+            <th>ID</th>
+            <th>Hypesquad</th>
+            <th>Verification</th>
+          </thead>
+          <tbody id="bot-list">
+          </tbody>
+        </table>
+      </div>
+
+      <!-- // footer -->
+      <footer>
+        <div class="footer">
+          <div class="footer-content">
+            <div class="footer-section about"></div>
+            <div class="footer-section links"></div>
+            <div class="footer-section contact-form"></div>
+          </div>
+
+          <div class="footer-bottom">
+            &copy; 2021 — Made By Your's Jarvis #2431 with ❤️
+          </div>
+        </div>
+      </footer>
+      <!-- footer-->
+
+
+    </body>
+
+  </section>
+
+  <!-- Css -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="../Raid Tools Css/ODH.css">
+  <link rel="stylesheet" href="../Raid Tools Css/Table.css">
+  <link rel="stylesheet" href="../Raid Tools Css/ContextMenu.css">
+
+
+
+  <!-- Link Java Script File -->
+  <script src="../Java script/navigation.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="../Raid Tools Java script/"></script>
+  <script src="../Raid Tools Java script/Toast.js"></script>
+  <script src="../Raid Tools Java script/Error.js"></script>
+  <script src="../Raid Tools Java script/BotList.js"></script>
+
+
+</nav>
+
+</html>
