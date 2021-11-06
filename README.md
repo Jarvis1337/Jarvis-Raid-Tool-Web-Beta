@@ -151,8 +151,9 @@
 > ***2. Github => [Github.com](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/)***  
 > ***3. Email => [Jarvis.raidtoolsupport@gmail.com](Jarvis.raidtoolsupport@gmail.com)***  
 
-> ***Checking For [Update's](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/releases)***  
-> ***Download: - [Jarvis - Raid Tool Web... Dashboard](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/)***  
+> ***🌐 Checking For [Update's](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/releases)***  
+> ***🔎 Report [Bugs And Issues](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/issues)***  
+> ***💽 Download: - [Jarvis - Raid Tool Web... Dashboard](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/)***  
 > ***✔ Current Version: - [Version 2.8.6](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/releases/tag/v2.8.6/)***
 
 > ***I Hope You Consider Reading [Readme.md](https://github.com/Yours-Jarvis/Jarvis-Raid-Tool-Web-Beta/blob/main/README.md) File.***
