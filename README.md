@@ -118,8 +118,8 @@
 ![Friender](https://media.discordapp.net/attachments/906085323853942824/906236764912488518/unknown.png?width=768&height=424)
 
 ***Reactions Spammer ----***  
-![Reactions Spammer]()
-![Reactions Spammer]()
+![Reactions Spammer](https://media.discordapp.net/attachments/906085323853942824/906477445073502219/unknown.png?width=768&height=422)
+![Reactions Spammer](https://media.discordapp.net/attachments/906085323853942824/906477998197334057/unknown.png?width=768&height=425)
 
 ***Voice Channel Joiner ----***  
 ![Voice Channel Joiner](https://media.discordapp.net/attachments/906085323853942824/906237971974467604/unknown.png?width=768&height=424)
