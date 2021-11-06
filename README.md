@@ -86,37 +86,62 @@
 
 > ***Features ----***
 
-***Dashboard ----***
-![Dashboard]()
-***Account List ----***
-![Dashboard]()
-***Server Joiner ----***
-![Dashboard]()
-***Leaver ----***
-![Dashboard]()
-***Message & Dm Spammer ----***
-![Dashboard]()
-***Friender ----***
-![Dashboard]()
-***Reaction Spammer ----***
-![Dashboard]()
-***Voice Channel Joiner ----***
-![Dashboard]()
-***Account Checker ----***
-![Dashboard]()
-***Profile Cleaner----***
-![Dashboard]()
-***Server Information ----***
-![Dashboard]()
+***Intent - Admin login ----***  
+![Intent - Admin login](https://media.discordapp.net/attachments/906085323853942824/906227083489988680/unknown.png?width=768&height=423)
 
-> ***Navigation Bar ----***
+***Dashboard ----***  
+![Dashboard](https://media.discordapp.net/attachments/906085323853942824/906241774815682590/unknown.png?width=768&height=422)
+![Dashboard](https://media.discordapp.net/attachments/906085323853942824/906228479299825684/unknown.png?width=768&height=425)
 
-***Management ----***
-![Dashboard]()
-***Start Attack ----***
-![Dashboard]()
-***Tools ----***
-![Dashboard]()
+***Account List's ----***  
+![Account List's](https://media.discordapp.net/attachments/906085323853942824/906229507768336454/unknown.png?width=768&height=425)
+![Account List's](https://media.discordapp.net/attachments/906085323853942824/906229025465323570/unknown.png?width=768&height=424)
+
+> ***Fishing Attack's ----***
+
+***Server Joiner ----***  
+![Server Joiner](https://media.discordapp.net/attachments/906085323853942824/906231171191537724/unknown.png?width=768&height=424)
+![Server Joiner](https://media.discordapp.net/attachments/906085323853942824/906230668063821895/unknown.png?width=768&height=422)
+
+***Leaver ----***  
+![Leaver](https://media.discordapp.net/attachments/906085323853942824/906232395429195776/unknown.png?width=768&height=425)
+![Leaver](https://media.discordapp.net/attachments/906085323853942824/906231957476753449/unknown.png?width=768&height=425)
+
+***Message & Dm Spammer ----***  
+![Message & Dm Spammer](https://media.discordapp.net/attachments/906085323853942824/906232794554961990/unknown.png?width=768&height=422)
+![Message & Dm Spammer](https://media.discordapp.net/attachments/906085323853942824/906235096389013555/unknown.png?width=768&height=422)
+![Message & Dm Spammer](https://media.discordapp.net/attachments/906085323853942824/906233116283265024/unknown.png?width=768&height=423)
+![Message & Dm Spammer](https://media.discordapp.net/attachments/906085323853942824/906235553924665354/unknown.png?width=768&height=425)
+
+***Friender ----***  
+![Friender](https://media.discordapp.net/attachments/906085323853942824/906236198673068123/unknown.png?width=768&height=425)
+![Friender](https://media.discordapp.net/attachments/906085323853942824/906236764912488518/unknown.png?width=768&height=424)
+
+***Reactions Spammer ----***  
+![Reactions Spammer]()
+![Reactions Spammer]()
+
+***Voice Channel Joiner ----***  
+![Voice Channel Joiner](https://media.discordapp.net/attachments/906085323853942824/906237971974467604/unknown.png?width=768&height=424)
+![Voice Channel Joiner](https://media.discordapp.net/attachments/906085323853942824/906237436311502858/unknown.png?width=768&height=424)
+
+> ***Upcoming New Features ----***
+
+***Account Checker ----***  
+![Account Checker](https://media.discordapp.net/attachments/906085323853942824/906238334513324112/unknown.png?width=768&height=424)
+![Account Checker](https://media.discordapp.net/attachments/906085323853942824/906239131523379210/unknown.png?width=768&height=425)
+
+***Profile Cleaner ----***  
+![Profile Cleaner](https://media.discordapp.net/attachments/906085323853942824/906239389376593920/unknown.png?width=768&height=425)
+![Profile Cleaner](https://media.discordapp.net/attachments/906085323853942824/906239707325812766/unknown.png?width=768&height=421)
+
+***Server Information ----***  
+![Server Information](https://media.discordapp.net/attachments/906085323853942824/906240043713196072/unknown.png?width=768&height=424)
+![Server Information](https://media.discordapp.net/attachments/906085323853942824/906240324593147914/unknown.png?width=768&height=422)
+
+***Settings ----***  
+![Settings](https://media.discordapp.net/attachments/906085323853942824/906240586686820442/unknown.png?width=768&height=425)
+![Settings](https://media.discordapp.net/attachments/906085323853942824/906240907316191272/unknown.png?width=768&height=425)
 
 ----
 
